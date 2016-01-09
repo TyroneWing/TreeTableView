@@ -203,6 +203,8 @@
         TreeModel *node = _dataArray[indexPath.section];
         BOOL isExpand = node.isExpanded;
         
+ ///////////////////////////////////////////////////
+        //控制Tree显示样式
         for (int i = 0; i<_dataArray.count; i++) {
             TreeModel *nodeI = _dataArray[i];
             if (nodeI.isExpanded) {
@@ -218,6 +220,8 @@
             }
             nodeI.isExpanded = NO;
         }
+ ///////////////////////////////////////////////////
+
         node.isExpanded = !isExpand;
         SectionHeadCell *cell = (SectionHeadCell*)[tableView cellForRowAtIndexPath:indexPath];
         if(cell.node.isExpanded){

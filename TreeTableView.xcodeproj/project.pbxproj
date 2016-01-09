@@ -30,6 +30,8 @@
 		191FF5271C40D9F7009662D5 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 191FF5201C40D9F7009662D5 /* 8.png */; };
 		191FF5281C40D9F7009662D5 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 191FF5211C40D9F7009662D5 /* 9.png */; };
 		191FF5291C40D9F7009662D5 /* the_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 191FF5221C40D9F7009662D5 /* the_arrow.png */; };
+		191FF52E1C4104E5009662D5 /* treeViewStyle1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 191FF52C1C4104E5009662D5 /* treeViewStyle1.gif */; };
+		191FF52F1C4104E5009662D5 /* treeViewStyle2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 191FF52D1C4104E5009662D5 /* treeViewStyle2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		191FF5201C40D9F7009662D5 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 		191FF5211C40D9F7009662D5 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
 		191FF5221C40D9F7009662D5 /* the_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_arrow.png; sourceTree = "<group>"; };
+		191FF52C1C4104E5009662D5 /* treeViewStyle1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = treeViewStyle1.gif; sourceTree = "<group>"; };
+		191FF52D1C4104E5009662D5 /* treeViewStyle2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = treeViewStyle2.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 		19049A561C3E627700E47369 /* TreeTableView */ = {
 			isa = PBXGroup;
 			children = (
+				191FF52C1C4104E5009662D5 /* treeViewStyle1.gif */,
+				191FF52D1C4104E5009662D5 /* treeViewStyle2.gif */,
 				191FF51B1C40D9F7009662D5 /* image */,
 				19049A8D1C3E647200E47369 /* ZYTreeTableView */,
 				19049A5A1C3E627700E47369 /* AppDelegate.h */,
@@ -321,6 +327,8 @@
 				191FF5271C40D9F7009662D5 /* 8.png in Resources */,
 				191FF5261C40D9F7009662D5 /* 7.png in Resources */,
 				191FF5231C40D9F7009662D5 /* 4.png in Resources */,
+				191FF52F1C4104E5009662D5 /* treeViewStyle2.gif in Resources */,
+				191FF52E1C4104E5009662D5 /* treeViewStyle1.gif in Resources */,
 				19049A671C3E627700E47369 /* LaunchScreen.storyboard in Resources */,
 				19049A641C3E627700E47369 /* Assets.xcassets in Resources */,
 				19049A621C3E627700E47369 /* Main.storyboard in Resources */,
